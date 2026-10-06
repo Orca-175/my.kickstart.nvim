@@ -93,6 +93,7 @@ require('lsp');
 require('formatting');
 require('autocomplete_and_snippets');
 require('treesitter');
+require('optional_examples_and_next_steps');
 
 -- Custom plugins
 require('custom.plugins')

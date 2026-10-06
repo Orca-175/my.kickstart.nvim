@@ -1,4 +1,4 @@
-local gh = require('gh');
+local gh = require('gh')
 
 vim.pack.add { gh 'olimorris/onedarkpro.nvim' }
 require('onedarkpro').setup {
