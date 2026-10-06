@@ -76,5 +76,10 @@ do
     group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
     callback = function() vim.hl.hl_op() end,
   })
+
+  vim.keymap.set('n', '<M-h>', 'gT', { desc = 'Move to previous tab page' })
+  vim.keymap.set('n', '<M-j>', function() vim.cmd('tabclose') end, { desc = 'Delete current tab page' })
+  vim.keymap.set('n', '<M-k>', function() vim.cmd('tabnew') end, { desc = 'Create new tab page' })
+  vim.keymap.set('n', '<M-l>', 'gt', { desc = 'Move to next tab page' })
 end
 
