@@ -5,6 +5,10 @@
       "src": "https://github.com/L3MON4D3/LuaSnip",
       "version": "2.0.0 - 3.0.0"
     },
+    "auto-session": {
+      "rev": "02a5588f677970a9bc784115c62bef9e5855499b",
+      "src": "https://github.com/rmagatti/auto-session"
+    },
     "blink.cmp": {
       "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
       "src": "https://github.com/saghen/blink.cmp",
@@ -88,6 +92,10 @@
       "rev": "4286b5abc47d62d0c9ffb22a4f388b7bf2ac2461",
       "src": "https://github.com/sunjon/shade.nvim"
     },
+    "snacks.nvim": {
+      "rev": "882c996cf28183f4d63640de0b4c02ec886d01f2",
+      "src": "https://github.com/folke/snacks.nvim"
+    },
     "sunglasses.nvim": {
       "rev": "1e4c4ea4d6b46124090df1d35426a705cb3b99cf",
       "src": "https://github.com/miversen33/sunglasses.nvim"
@@ -115,6 +123,10 @@
     "ultimate-autopair.nvim": {
       "rev": "6b58234de921437836efe27714b2026ed2ee235a",
       "src": "https://github.com/altermo/ultimate-autopair.nvim"
+    },
+    "vim-obsession": {
+      "rev": "dad3b5a1f9b661e27cb77fc69308287349d3cf30",
+      "src": "https://github.com/tpope/vim-obsession"
     },
     "vim-tmux-navigator": {
       "rev": "e41c431a0c7b7388ae7ba341f01a0d217eb3a432",

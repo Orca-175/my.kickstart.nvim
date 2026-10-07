@@ -77,9 +77,13 @@ do
     callback = function() vim.hl.hl_op() end,
   })
 
+  -- Work with tab pages
   vim.keymap.set('n', '<M-h>', 'gT', { desc = 'Move to previous tab page' })
   vim.keymap.set('n', '<M-j>', function() vim.cmd('tabclose') end, { desc = 'Delete current tab page' })
   vim.keymap.set('n', '<M-k>', function() vim.cmd('tabnew') end, { desc = 'Create new tab page' })
   vim.keymap.set('n', '<M-l>', 'gt', { desc = 'Move to next tab page' })
+
+  -- lazygit
+  vim.keymap.set('n', '<leader>g', function() Snacks.lazygit.open() end, { desc = 'Open lazygit' })
 end
 

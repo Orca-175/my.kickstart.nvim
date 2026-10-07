@@ -115,7 +115,6 @@ do
     -- tsc = {},
     vtsls = {},
     cssls = {},
-    somesass_ls = {},
     eslint = {},
     emmet_language_server = {},
     --
