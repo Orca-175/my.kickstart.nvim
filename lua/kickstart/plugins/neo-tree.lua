@@ -11,6 +11,9 @@ vim.keymap.set('n', '\\', '<Cmd>Neotree reveal float<CR>', { desc = 'NeoTree rev
 
 require('neo-tree').setup {
   filesystem = {
+    filtered_items = {
+      hide_gitignored = false,
+    },
     window = {
       mappings = {
         ['\\'] = 'close_window',
