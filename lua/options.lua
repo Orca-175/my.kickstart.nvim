@@ -94,5 +94,7 @@ do
   vim.o.autoindent = true
 
   vim.o.wrap = true
+
+  vim.o.termguicolors = true
 end
 
