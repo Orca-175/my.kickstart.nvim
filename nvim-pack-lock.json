@@ -22,6 +22,10 @@
       "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
       "src": "https://github.com/j-hui/fidget.nvim"
     },
+    "floaterm": {
+      "rev": "fc2efaf25eeefcb33177d5807c0c745e125cf293",
+      "src": "https://github.com/nvzone/floaterm"
+    },
     "gitsigns.nvim": {
       "rev": "070a5d7b985546cc57e1fc61e5bc507fecac6045",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
@@ -139,6 +143,10 @@
     "vimade": {
       "rev": "bc6e2d3031b81de39e7b48d20f62ea716a97446d",
       "src": "https://github.com/TaDaa/vimade"
+    },
+    "volt": {
+      "rev": "620de1321f275ec9d80028c68d1b88b409c0c8b1",
+      "src": "https://github.com/nvzone/volt"
     },
     "which-key.nvim": {
       "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",

@@ -85,5 +85,16 @@ do
 
   -- lazygit
   vim.keymap.set('n', '<leader>g', function() Snacks.lazygit.open() end, { desc = 'Open lazygit' })
+
+  -- Terminals
+  vim.keymap.set('n', '<C-t>n', function() vim.cmd('term') end, { desc = 'Open a new terminal in the current buffer' })
+  vim.keymap.set('n', '<C-t>v', function()
+    vim.cmd.wincmd('v')
+    vim.cmd('term')
+  end, { desc = 'Open a new terminal in a vertical split' })
+  vim.keymap.set('n', '<C-t>s', function()
+    vim.cmd.wincmd('s')
+    vim.cmd('term')
+  end, { desc = 'Open a new terminal in a horizontal split' })
 end
 
