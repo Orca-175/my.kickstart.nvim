@@ -88,13 +88,23 @@ do
 
   -- Terminals
   vim.keymap.set('n', '<C-t>n', function() vim.cmd('term') end, { desc = 'Open a new terminal in the current buffer' })
-  vim.keymap.set('n', '<C-t>v', function()
-    vim.cmd.wincmd('v')
-    vim.cmd('term')
-  end, { desc = 'Open a new terminal in a vertical split' })
-  vim.keymap.set('n', '<C-t>s', function()
-    vim.cmd.wincmd('s')
-    vim.cmd('term')
-  end, { desc = 'Open a new terminal in a horizontal split' })
+  vim.keymap.set('n', '<C-t>v',
+    function()
+      vim.cmd.wincmd('v')
+      vim.cmd('term')
+    end,
+    { desc = 'Open a new terminal in a vertical split' }
+  )
+  vim.keymap.set('n', '<C-t>s',
+    function()
+      vim.cmd.wincmd('s')
+      vim.cmd('term')
+    end,
+    { desc = 'Open a new terminal in a horizontal split' }
+  )
+
+  -- Buffers
+  vim.keymap.set('n', '<leader>b', '', { desc = 'Buffers' })
+  vim.keymap.set('n', '<leader>bi', function() require('custom.plugins.close_buffers').delete({ type = 'hidden' }) end, { desc = 'Delete all invisible buffers' })
 end
 

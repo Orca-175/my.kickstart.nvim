@@ -22,6 +22,7 @@ require('onedarkpro').setup {
     -- Yinameah/nvim-tabline
     TabLineClose = { bg = { onedark = background_color } },
     TabLineSeparator = { bg = { onedark = background_color } },
+    TabLineSeparatorSel = { fg = colors.red },
     TabLineSel = { fg = colors.yellow },
     TabLineModified = { bg = { onedark = background_color } },
 

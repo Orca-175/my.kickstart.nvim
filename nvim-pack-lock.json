@@ -14,6 +14,10 @@
       "src": "https://github.com/saghen/blink.cmp",
       "version": "1.0.0 - 2.0.0"
     },
+    "close-buffers.nvim": {
+      "rev": "3acbcad1211572342632a6c0151f839e7dead27f",
+      "src": "https://github.com/kazhala/close-buffers.nvim"
+    },
     "conform.nvim": {
       "rev": "016802de402556da54c36bd7359b441266b01cdd",
       "src": "https://github.com/stevearc/conform.nvim"
