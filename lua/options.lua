@@ -96,5 +96,7 @@ do
   vim.o.wrap = true
 
   vim.o.termguicolors = true
+
+  vim.o.winborder = 'rounded'
 end
 

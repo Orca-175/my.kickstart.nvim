@@ -1,5 +1,7 @@
 local gh = require('gh')
 
 vim.pack.add { gh 'TaDaa/vimade' }
-require('vimade')
+require('vimade').setup {
+    recipe = { 'duo' }
+}
 
