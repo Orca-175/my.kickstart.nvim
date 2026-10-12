@@ -1,7 +1,5 @@
 local gh = require('gh')
 
 vim.pack.add { gh 'pocco81/auto-save.nvim' }
-require('auto-save').setup {
-  trigger_events = { 'ModeChanged' }
-}
+require('auto-save').setup {}
 
