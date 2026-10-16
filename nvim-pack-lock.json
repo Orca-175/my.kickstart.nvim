@@ -79,6 +79,10 @@
       "rev": "3e8d598d3b5f8338a41699c436e5fa11d2666cf0",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
+    "nvim-notify": {
+      "rev": "8701bece920b38ea289b457f902e2ad184131a5d",
+      "src": "https://github.com/rcarriga/nvim-notify"
+    },
     "nvim-tabline": {
       "rev": "eb8f7b896085aa6c6715eae6015d23c126f25159",
       "src": "https://github.com/Yinameah/nvim-tabline"
@@ -103,6 +107,10 @@
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
       "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "pomo.nvim": {
+      "rev": "aa8decc421d89be0f10b1fc6a602cdd269f350ff",
+      "src": "https://github.com/epwalsh/pomo.nvim"
     },
     "shade.nvim": {
       "rev": "4286b5abc47d62d0c9ffb22a4f388b7bf2ac2461",

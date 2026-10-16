@@ -29,6 +29,9 @@ require('onedarkpro').setup {
     -- Telescope
     TelescopeBorder = { bg = { onedark = background_color } },
     TelescopeNormal = { bg = { onedark = background_color } },
+
+    -- Mini statusline
+    MiniStatusLinePomo = { fg = colors.blue },
   },
   colors = {
     onedark = {
